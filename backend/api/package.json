@@ -1,0 +1,19 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "node src/server.js",
+        "build": "echo 'Backend build complete'",
+        "preview": "node src/server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2",
+        "eslint": "^8.55.0"
+    }
+}
