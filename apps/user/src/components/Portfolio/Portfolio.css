@@ -1,0 +1,44 @@
+.portfolio-container {
+    @apply bg-[#050811] py-20 md:py-32;
+}
+
+.portfolio-content {
+    @apply max-w-7xl mx-auto px-6 sm:px-12 lg:px-16;
+}
+
+.portfolio-content {
+    /* @apply max-w-screen-2xl mx-auto px-6 sm:px-12 lg:px-16; */
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10;
+}
+
+.portfolio-header {
+    @apply max-w-3xl mb-12;
+}
+
+.portfolio-title {
+    @apply text-4xl md:text-5xl font-black text-white leading-[1.1] tracking-tight;
+}
+
+.portfolio-grid-container {
+    @apply grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-1.5 bg-white/5 p-1 rounded-sm border border-white/5;
+}
+
+.portfolio-card {
+    @apply relative overflow-hidden  transition-all duration-500;
+}
+
+.portfolio-card-img {
+    @apply absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110;
+}
+
+.portfolio-card-overlay {
+    @apply absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500;
+}
+
+.portfolio-card-tags {
+    @apply absolute bottom-2 left-2 md:bottom-3 md:left-3 flex flex-wrap gap-1 md:gap-1.5 max-w-[90%];
+}
+
+.portfolio-tag {
+    @apply bg-[#ffffff] text-slate-700 text-[7px] md:text-[12px] font-black px-1.5 py-0.5 md:px-2 md:py-1 rounded-[1px] shadow-sm tracking-tighter uppercase whitespace-nowrap;
+}

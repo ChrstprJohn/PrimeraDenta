@@ -4,7 +4,10 @@ import { HeroBackground, HeroHeadline, HeroButtons, HeroReviews } from './compon
 
 const Hero = ({ onBookNow }) => {
     return (
-        <div className='hero-container'>
+        <div
+            id='home'
+            className='hero-container'
+        >
             <HeroBackground />
 
             <div className='hero-content'>
