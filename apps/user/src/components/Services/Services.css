@@ -1,0 +1,59 @@
+/* Services Container */
+.services-container {
+    @apply py-24 bg-slate-50 overflow-hidden;
+}
+
+.services-content {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Services Header */
+.services-label {
+    @apply text-sky-500 font-bold uppercase tracking-widest text-xs mb-4 block;
+}
+
+.services-title {
+    @apply text-4xl md:text-5xl  font-extrabold text-slate-900 mb-4;
+}
+
+.services-description {
+    @apply text-slate-500 max-w-2xl mx-auto;
+}
+
+/* Services Grid */
+.services-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Service Card */
+.services-card {
+    @apply bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
+}
+
+.services-card-image {
+    @apply relative h-48 overflow-hidden;
+}
+
+.services-card-img {
+    @apply w-full h-full object-cover group-hover:scale-110 transition-transform duration-500;
+}
+
+.services-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent;
+}
+
+.services-card-content {
+    @apply p-6;
+}
+
+.services-card-title {
+    @apply text-xl  font-bold text-slate-900 mb-2 group-hover:text-sky-500 transition-colors;
+}
+
+.services-card-desc {
+    @apply text-slate-500 text-sm leading-relaxed mb-6;
+}
+
+.services-card-button {
+    @apply w-full bg-slate-50 group-hover:bg-sky-500 group-hover:text-white text-slate-600 font-bold py-3 rounded-xl transition-all text-xs uppercase tracking-widest;
+}
