@@ -8,9 +8,3 @@ export {
     SOCIAL_MEDIA,
     DEFAULT_PROFILE_PICTURE,
 } from './constants';
-
-// Image assets
-export const IMAGES = {
-    logo: '/src/assets/images/primera-denta-logo.png',
-    defaultProfile: '/src/assets/images/account-profile.svg',
-};
