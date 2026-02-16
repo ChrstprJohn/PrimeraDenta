@@ -1,0 +1,46 @@
+/* Hero Container */
+.hero-container {
+    @apply relative min-h-screen flex items-center pt-20;
+}
+
+.hero-content {
+    @apply relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full;
+}
+
+/* Hero Badge */
+.hero-badge {
+    @apply inline-block px-3 py-1 bg-sky-100 text-sky-600 rounded-full text-xs font-bold uppercase tracking-widest mb-4;
+}
+
+/* Hero Title */
+.hero-title {
+    @apply text-5xl md:text-7xl font-extrabold text-slate-900 leading-tight mb-6;
+    /* removed font-brand if not defined */
+}
+
+/* Hero Description */
+.hero-description {
+    @apply text-xl text-slate-600 mb-8 leading-relaxed;
+}
+
+/* Hero Buttons */
+.hero-button-primary {
+    @apply bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-xl font-bold text-lg transition-transform transition-colors shadow-xl active:scale-95;
+}
+
+.hero-button-secondary {
+    @apply bg-white hover:bg-slate-50 text-sky-500 border-2 border-sky-500 px-8 py-4 rounded-xl font-bold text-lg transition-transform transition-colors shadow-md active:scale-95;
+}
+
+/* Hero Reviews */
+.hero-review-avatar {
+    @apply w-12 h-12 rounded-full border-4 border-white object-cover;
+}
+
+.hero-rating {
+    @apply flex text-yellow-400 mb-1;
+}
+
+.hero-review-text {
+    @apply text-sm font-medium text-slate-500;
+}

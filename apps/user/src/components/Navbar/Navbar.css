@@ -1,0 +1,91 @@
+/* Main Navbar Container */
+.navbar {
+    @apply fixed top-0 left-0 right-0 z-50 transition-all duration-300;
+}
+
+/* .navbar-scrolled {
+    @apply bg-white/95 backdrop-blur-md shadow-md py-3;
+} */
+
+.navbar-scrolled {
+    @apply bg-white/95 backdrop-blur-md shadow-md py-3;
+}
+
+.navbar-top {
+    @apply bg-transparent py-5;
+}
+
+.navbar-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.navbar-content {
+    @apply flex justify-between items-center;
+}
+
+/* Navbar Links */
+.navbar-link {
+    @apply text-slate-600 hover:text-sky-500 font-bold transition-colors text-[11px] lg:text-xs uppercase tracking-widest whitespace-nowrap;
+}
+/* CTA Button */
+.navbar-cta {
+    @apply hidden sm:block bg-sky-500 hover:bg-sky-600 text-white px-5 lg:px-6 py-2.5 rounded-full font-bold text-xs lg:text-sm transition-all shadow-lg shadow-sky-100 active:scale-95 whitespace-nowrap;
+}
+
+/* Profile Section */
+.navbar-profile-btn {
+    @apply flex items-center space-x-2 focus:outline-none;
+}
+
+.navbar-profile-avatar {
+    @apply w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 transition-all overflow-hidden flex items-center justify-center;
+}
+
+.navbar-profile-name {
+    @apply hidden xl:block text-slate-700 font-bold text-sm;
+}
+
+.navbar-profile-chevron {
+    @apply w-4 h-4 text-slate-400 transition-transform duration-200;
+}
+
+/* Dropdown Menu */
+.navbar-dropdown {
+    @apply absolute right-0 mt-3 w-56 bg-white rounded-2xl shadow-2xl border border-slate-100 py-2 z-50 transition-transform duration-200 origin-top-right;
+}
+
+.navbar-dropdown-header {
+    @apply px-4 py-3 border-b border-slate-50 mb-1;
+}
+
+.navbar-dropdown-label {
+    @apply text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1;
+}
+
+.navbar-dropdown-email {
+    @apply text-sm font-black text-slate-900 truncate;
+}
+
+.navbar-dropdown-badge {
+    @apply inline-block mt-1 px-2 py-0.5 bg-sky-50 text-sky-600 text-[9px] font-black uppercase rounded-md tracking-tighter;
+}
+
+.navbar-dropdown-items {
+    @apply py-1;
+}
+
+.navbar-dropdown-item {
+    @apply w-full flex items-center px-4 py-3 text-sm font-bold text-slate-700 hover:bg-slate-50 hover:text-sky-500 transition-colors;
+}
+
+.navbar-dropdown-icon {
+    @apply w-5 h-5 mr-3 text-sky-500;
+}
+
+.navbar-dropdown-divider {
+    @apply h-px bg-slate-50 my-1 mx-2;
+}
+
+.navbar-dropdown-item-logout {
+    @apply w-full flex items-center px-4 py-3 text-sm font-bold text-red-500 hover:bg-red-50 transition-colors;
+}
