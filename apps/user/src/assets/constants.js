@@ -1,8 +1,11 @@
+import accountProfileSvg from './images/account-profile.svg';
+import logoSvg from './images/primera-denta-logo.svg';
+
 // ============================================
 // BRANDING CONSTANTS
 // ============================================
 export const BRANDING = {
-    logoUrl: '/src/assets/images/primera-denta-logo.svg',
+    logoUrl: logoSvg,
     logoAlt: 'Primera Denta Clinic Logo',
     companyName: 'PRIMERA DENTA',
     companyNameParts: {
@@ -19,7 +22,7 @@ export const BRANDING = {
 // ============================================
 // DEFAULT PROFILE PICTURE
 // ============================================
-export const DEFAULT_PROFILE_PICTURE = '/src/assets/images/account-profile.svg';
+export const DEFAULT_PROFILE_PICTURE = accountProfileSvg;
 
 // ============================================
 // NAVBAR CONSTANTS
